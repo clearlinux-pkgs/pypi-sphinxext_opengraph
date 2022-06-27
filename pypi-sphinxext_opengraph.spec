@@ -4,7 +4,7 @@
 #
 Name     : pypi-sphinxext_opengraph
 Version  : 0.5.1
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/9d/86/d15957e0d2f3a4ab3ef0376365e1a9cff797dddcae71f3ceb35438f7c363/sphinxext-opengraph-0.5.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9d/86/d15957e0d2f3a4ab3ef0376365e1a9cff797dddcae71f3ceb35438f7c363/sphinxext-opengraph-0.5.1.tar.gz
 Summary  : Sphinx Extension to enable OGP support
@@ -52,7 +52,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1653060210
+export SOURCE_DATE_EPOCH=1656370336
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -88,7 +88,7 @@ export FCFLAGS="$FCFLAGS -m64 -march=x86-64-v3 "
 export LDFLAGS="$LDFLAGS -m64 -march=x86-64-v3 "
 python3 -tt setup.py build install --root=%{buildroot}-v3
 popd
-/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot}/usr/share/clear/optimized-elf/ %{buildroot}/usr/share/clear/filemap/filemap-%{name}
+/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot} %{buildroot}/usr/share/clear/filemap/filemap-%{name}
 
 %files
 %defattr(-,root,root,-)
