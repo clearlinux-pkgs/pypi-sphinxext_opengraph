@@ -7,12 +7,12 @@
 #
 Name     : pypi-sphinxext_opengraph
 Version  : 0.8.2
-Release  : 10
+Release  : 11
 URL      : https://files.pythonhosted.org/packages/f4/7c/ab934e20605e41a843ef09b726d33c8160ae17870c44915e7c5c8771f181/sphinxext-opengraph-0.8.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f4/7c/ab934e20605e41a843ef09b726d33c8160ae17870c44915e7c5c8771f181/sphinxext-opengraph-0.8.2.tar.gz
 Summary  : Sphinx Extension to enable OGP support
 Group    : Development/Tools
-License  : .md BSD-3-Clause MIT
+License  : BSD-3-Clause MIT
 Requires: pypi-sphinxext_opengraph-license = %{version}-%{release}
 Requires: pypi-sphinxext_opengraph-python = %{version}-%{release}
 Requires: pypi-sphinxext_opengraph-python3 = %{version}-%{release}
@@ -70,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1697505145
+export SOURCE_DATE_EPOCH=1697505917
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
