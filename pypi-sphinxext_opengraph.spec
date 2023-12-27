@@ -7,7 +7,7 @@
 #
 Name     : pypi-sphinxext_opengraph
 Version  : 0.8.2
-Release  : 11
+Release  : 12
 URL      : https://files.pythonhosted.org/packages/f4/7c/ab934e20605e41a843ef09b726d33c8160ae17870c44915e7c5c8771f181/sphinxext-opengraph-0.8.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f4/7c/ab934e20605e41a843ef09b726d33c8160ae17870c44915e7c5c8771f181/sphinxext-opengraph-0.8.2.tar.gz
 Summary  : Sphinx Extension to enable OGP support
