@@ -1,5 +1,5 @@
 PKG_NAME := pypi-sphinxext_opengraph
-URL = https://files.pythonhosted.org/packages/f4/7c/ab934e20605e41a843ef09b726d33c8160ae17870c44915e7c5c8771f181/sphinxext-opengraph-0.8.2.tar.gz
+URL = https://files.pythonhosted.org/packages/1c/5b/4302fe33c88dbfb572e2c1cad26735164c23f16fb8dba94ddb1867d0ef06/sphinxext-opengraph-0.9.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
